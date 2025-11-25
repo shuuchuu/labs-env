@@ -1,0 +1,17 @@
+[project]
+name = "labs-env"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "mog", email = "mog@noreply.git.ogion.eu" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+labs-env = "labs_env:main"
+
+[build-system]
+requires = ["uv_build>=0.9.8,<0.10.0"]
+build-backend = "uv_build"
