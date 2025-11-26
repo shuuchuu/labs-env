@@ -7,7 +7,9 @@ authors = [
     { name = "mog", email = "mog@noreply.git.ogion.eu" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.7",
+]
 
 [project.scripts]
 labs-env = "labs_env:main"
